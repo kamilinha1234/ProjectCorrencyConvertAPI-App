@@ -38,4 +38,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // Implementações necessárias para utilizar o retrofit
+    implementation("com.squereup.retrofit2:retrofit:2.9.0")
+    // Retrofit com GSON - converte objeto java em JSON e vice versa
+    implementation("com.squereup.retrofit2:converter-gson:2.9.0")
 }
